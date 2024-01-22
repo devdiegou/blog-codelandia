@@ -1,0 +1,38 @@
+.input__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  position: relative;
+
+  input {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    padding-left: 50px;
+    width: 100%;
+    gap: 16px;
+
+    border: 2px solid #252529;
+    border-radius: 8px;
+    background-color: #202024;
+
+    color: #afabb6;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .search {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 2560px){
+  .search {
+    left: 12px;
+  }
+}
